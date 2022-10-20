@@ -1,0 +1,62 @@
+.daily-close{
+    width: max-content;
+    margin: 0 auto;
+    padding: 0.625rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+#closeBtnDaily{
+    font-size: 3.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.daily-wrap{
+    display: grid;
+    position: relative;
+    width: 75vw;
+    margin: 0 auto;
+    background-color: #33495f;
+    align-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.daily-grid-item{
+    padding: 0.625rem;
+    border: 0.0625rem solid white;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #33495f;
+}
+.daily-grid-item.city-country-name{
+    font-size: 3rem;
+}
+.sunrise-time-of-day, .sunset-time-of-day{
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+.daily-section{
+    font-size: 1.5rem;
+    word-break: break-all;
+}
+.weather-icon.daily{
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+.daily-section.feels-like-daily{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.daily-section.daily-section-after-temperature{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+.wi.wi-wind.daily{
+    font-size: 1.5rem;
+}
+@media (min-width: 500px) {
+    .daily-wrap{
+        width: max-content;
+}
+    .daily-grid-item.city-country-name{
+        grid-column: 1/8;
+    }
+}

@@ -1,0 +1,86 @@
+@import '../fonts/fonts.css';
+
+html{
+    font-size: 9px;
+    font-family: 'Poppins', 'Ubuntu', 'Roboto', sans-serif;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #33495f;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+.scale.me.please{
+    transform: scale(0.6);
+}
+.total-wrap-flex{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 400px) {
+    html{
+        font-size: 10px;
+    }
+    .scale.me.please{
+        transform: scale(0.68);
+    }
+}
+@media (min-width: 600px) {
+    html{
+        font-size: 12px;
+    }
+    .scale.me.please{
+        transform: scale(0.76);
+    }
+}
+@media (min-width: 800px) {
+    html{
+        font-size: 13px;
+    }
+    .scale.me.please{
+        transform: scale(0.84);
+    }
+}
+@media (min-width: 1000px) {
+    html{
+        font-size: 14px;
+    }
+    .scale.me.please{
+        transform: scale(0.92);
+    }
+}
+@media (min-width: 1200px) {
+    html{
+        font-size: 16px;
+    }
+    .scale.me.please{
+        transform: unset;
+    }
+}
+@media (min-width: 1500px) {
+    .scale.me.please{
+        transform: scale(1.6);
+    }
+}
+@media (min-width: 2000px) {
+
+    .scale.me.please{
+        transform: scale(1.68);
+    }
+}
+@media (min-width: 2500px) {
+    .scale.me.please{
+        transform: scale(1.76);
+    }
+}
+@media (min-width: 3000px) {
+    .scale.me.please{
+        transform: scale(1.84);
+    }
+}
